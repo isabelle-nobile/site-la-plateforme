@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>online course website design</title>
+	<title>La Plateforme - Accueil</title>
 
 	<!---custom css link---->
 	<link rel="stylesheet" type="text/css" href="laplateforme.css">
@@ -19,25 +19,27 @@
 
 	<!---start header---->
 	<header>
-		<a href="#" class="logo">
+		<a href="accueil.html" class="logo">
 			<img src="img\logo_laplateforme_bleu3.png">
 		</a>
-
-		<ul class="navbar">
-			<li><a href="#home">Accueil</a></li>
-			<li><a href="#categories">Categories</a></li>
-			<li><a href="#courses">Courses</a></li>
-			<li><a href="#about">About Us</a></li>
-			<li><a href="#contact">Contact</a></li>
+	
+		<ul class="navbar" id="nav-list">
+			<li><a href="accueil.html">Accueil</a></li>
+			<li><a href="plateforme-start.html">La Plateforme/Start</a></li>
+			<li><a href="aws-restart.html">AWS Restart</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
-
+	
 		<div class="header-icons">
 			<a href="#"><i class='bx bx-user'></i></a>
-			<a href="#"><i class='bx bx-heart' ></i></a>
-			<a href="#"><i class='bx bx-cart' ></i></a>
-			<div class="bx bx-menu" id="menu-icon"></div>
+			<div class="bx bx-menu" id="menu-icon">
+				<a href="#nav-list"></a>
+			</div>
 		</div>
 	</header>
+	
 
 	<!---start home section---->
 	<section class="home" id="home">
@@ -95,16 +97,6 @@
 			</div>
 		</div>
 
-		<!-- <div class="container-box">
-			<div class="container-img">
-				<img src="img/con4.svg">
-			</div>
-			<div class="container-text">
-				<h4>5K</h4>
-				<p>Online Courses</p>
-			</div>
-		</div> -->
-
 	</section>
 
 	<!---start categories section---->
@@ -132,24 +124,13 @@
 				<h3>Accélérez votre innovation</h3>
 				<p>Que vous soyez une entreprise digitale ou plus traditionnelle, vous devez innover pour poursuivre votre développement et rester compétitif ! Nos experts sont là pour vous aider à évaluer votre maturité, définir vos priorités sur le digital et concrétiser rapidement vos idées via la mise en œuvre de prototypes.</p>
 			</div>
-
-			<!-- <div class="box">
-				<img src="img/cate4.png">
-				<h3>Angular Development</h3>
-				<p>5 Courses</p>
-			</div> -->
-
-		</div>
-
-		<div class="main-btn">
-			<a href="#" class="btn">Bouton</a>
 		</div>
 	</section>
 
 	<!---start course section---->
 	<section class="courses" id="courses">
 		<div class="center-text">
-			<h2>Ils témoignent</h2>
+			<h2>Ils témoignent</h2> <br><br>
 			<h5>Découvrez ce que nos apprenants, les grands acteurs de l’économie de la Métropole Aix Marseille Provence et la French Tech pensent de La Plateforme_</h5>
 		</div>
 
@@ -160,223 +141,54 @@
             <div class="row">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/8U4CCAFLqEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
-			<div class="row">
-				<img src="img/course1.jpg">
-				<div class="courses-text">
-					<h5>$20.00</h5>
-					<h3>The Complete HTML CSS JS Course 2022</h3>
-					<h6>05 hours 15 minutes</h6>
-					<div class="rating">
-						<div class="star">
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-						</div>
-						<div class="review">
-							<p>{5 Reviews}</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<img src="img/course2.jpg">
-				<div class="courses-text">
-					<h5>$20.00</h5>
-					<h3>The Complete HTML CSS JS Course 2022</h3>
-					<h6>05 hours 15 minutes</h6>
-					<div class="rating">
-						<div class="star">
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-						</div>
-						<div class="review">
-							<p>{5 Reviews}</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<img src="img/course3.jpg">
-				<div class="courses-text">
-					<h5>$20.00</h5>
-					<h3>The Complete HTML CSS JS Course 2022</h3>
-					<h6>05 hours 15 minutes</h6>
-					<div class="rating">
-						<div class="star">
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-						</div>
-						<div class="review">
-							<p>{5 Reviews}</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<img src="img/course4.jpg">
-				<div class="courses-text">
-					<h5>$20.00</h5>
-					<h3>The Complete HTML CSS JS Course 2022</h3>
-					<h6>05 hours 15 minutes</h6>
-					<div class="rating">
-						<div class="star">
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-						</div>
-						<div class="review">
-							<p>{5 Reviews}</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<img src="img/course5.jpg">
-				<div class="courses-text">
-					<h5>$20.00</h5>
-					<h3>The Complete HTML CSS JS Course 2022</h3>
-					<h6>05 hours 15 minutes</h6>
-					<div class="rating">
-						<div class="star">
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-						</div>
-						<div class="review">
-							<p>{5 Reviews}</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<img src="img/course1.jpg">
-				<div class="courses-text">
-					<h5>$20.00</h5>
-					<h3>The Complete HTML CSS JS Course 2022</h3>
-					<h6>05 hours 15 minutes</h6>
-					<div class="rating">
-						<div class="star">
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-							<a href="#"><i class='bx bxs-star' ></i></a>
-						</div>
-						<div class="review">
-							<p>{5 Reviews}</p>
-						</div>
-					</div>
-				</div>
-			</div>
+		</div>
 
 		</div>
 
-		<div class="main-btn">
-			<a href="#" class="btn">Buy Now</a>
-		</div>
 	</section>
 
-	<!---start cta section---->
-	<section class="cta">
-		<div class="center-text">
-			<h5>Trusted By</h5>
-			<h2>500+ Leading Universities And Companies</h2>
+<!---start contact section---->
+<section class="contact" id="contact">
+	<div class="main-contact">
+		<div class="contact-content">
+			<img src="img\logo_laplateforme_bleu3.png">
+			<li><a href="https://www.facebook.com/LaPlateformeIO/?locale=fr_FR">Facebook</a></li>
+			<li><a href="https://www.instagram.com/laplateformeio/">Instagram</a></li>
+			<li><a href="https://twitter.com/LaPlateformeIO ">Twitter</a></li>
 		</div>
 
-		<div class="cta-content">
-			<div class="cta-img">
-				<img src="img/cta1.png">
-			</div>
-
-			<div class="cta-img">
-				<img src="img/cta2.png">
-			</div>
-
-			<div class="cta-img">
-				<img src="img/cta3.png">
-			</div>
-
-			<div class="cta-img">
-				<img src="img/cta4.png">
-			</div>
-
-			<div class="cta-img">
-				<img src="img/cta5.png">
-			</div>
-
-			<div class="cta-img">
-				<img src="img/cta6.png">
-			</div>
-
-		</div>
-	</section>
-
-	<!---start about section---->
-	<section class="about" id="about">
-		<div class="about-img">
-			<img src="img/about.png">
+		<div class="contact-content">
+		<h4>La Plateforme</h4> <br>
+		<li><a href="accueil.html">Accueil</a></li>
+		  <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+		  <li><a href="https://laplateforme.io/telechargement-brochure/">Notre brochure</a></li>
+		  <li><a href="https://laplateforme.io/lls-parlent-de-nous/">Ils parlent de nous</a></li>
+		  <li><a href="https://students-laplateforme.io/">Annuaire des Plateformers</a></li>
+		  <li><a href="https://alumni.laplateforme.io/">Alumni des Plateformers</a></li>
+		  <li><a href="https://laplateforme.io/entreprise/taxe-apprentissage/">Taxe d'apprentissage</a></li>
 		</div>
 
-		<div class="about-text">
-			<h2>Want to share your knowledge? Join us a Mentor</h2>
-			<p>High-definition video is video of higher resolution and quality than standard-definition. While there is no standardized meaning for high-definition, generally any video.</p>
-			<h4>Best Courses</h4>
-			<h5>Top rated Instructors</h5>
-			<a href="#" class="btn">Read More</a>
+		<div class="contact-content">
+		<h4>Les Formations</h4> <br>
+			<li><a href="plateforme-start.html">La Plateforme/Start</a></li>
+			<li><a href="https://laplateforme.io/coding-school/">Coding School</a></li>
+			<li><a href="https://laplateforme.io/bachelor-it//">Bachelor IT</a></li>
+			<li><a href="https://laplateforme.io/ai-school/">Artificial Intelligence School</a></li>
+			<li><a href="https://laplateforme.io/cyber-security-school/">Cyber Security School</a></li>
+			<li><a href="https://laplateforme.io/innovation-lab/">Innovation Lab</a></li>
 		</div>
-	</section>
 
-	<!---start contact section---->
-	<section class="contact" id="contact">
-		<div class="main-contact">
-			<div class="contact-content">
-				<img src="img\logo_laplateforme_bleu3.png">
-				<li><a href="https://www.facebook.com/LaPlateformeIO/?locale=fr_FR">Facebook</a></li>
-				<li><a href="https://www.instagram.com/laplateformeio/">Instagram</a></li>
-				<li><a href="https://twitter.com/LaPlateformeIO ">Twitter</a></li>
-			</div>
-
-			<div class="contact-content">
-				<li><a href="#home">Home</a></li>
-			  <li><a href="#categories">Categories</a></li>
-			  <li><a href="#courses">Courses</a></li>
-			  <li><a href="#about">About Us</a></li>
-			  <li><a href="#contact">Contact</a></li>
-			</div>
-
-			<div class="contact-content">
-				<li><a href="#">Profile</a></li>
-				<li><a href="#">Login</a></li>
-				<li><a href="#">Register</a></li>
-				<li><a href="#">Instructor</a></li>
-				<li><a href="#">Dashboard</a></li>
-			</div>
-
-			<div class="contact-content">
-				<li><a href="#">8 rue d’hozier, 13002 Marseille,<br> France</a></li>
-				<li><a href="#">contact@laplateforme.io</a></li>
-				<li><a href="#">04.84.89.43.69</a></li>
-			</div>
-
+		<div class="contact-content">
+		<h4>Informations</h4> <br>
+			<li><a>8 rue d’hozier, 13002 Marseille,<br> France</a></li>
+			<li><a>contact@laplateforme.io</a></li>
+			<li><a>Tel: 04.84.89.43.69</a></li>
+			<img src="https://laplateforme.io/wp-content/uploads/2022/05/Logo_April_footer2.svg" alt="april-logo">
+			<!-- <a class="button" href="contact.html">Contact</a> -->
+			<button id="button" onclick="window.location.href='contact.html'">Contact</button>
 		</div>
-	</section>
+	</div>
+</section>
 
 	<script type="text/javascript" src="js/script.js"></script>
 

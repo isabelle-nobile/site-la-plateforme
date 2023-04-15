@@ -32,7 +32,12 @@ header{
 	background: transparent;
 	padding: 23px 13%;
 	transition: all .40s ease;
-}
+}  
+  header.scroll {
+	background-color: rgba(0, 0, 0, 1);
+  }
+  
+
 .logo img{
 	height: auto;
 	width: 160px;
@@ -47,6 +52,7 @@ header{
 	font-size: var(--p-font);
 	padding: 10px 22px;
 	transition: all .40s ease;
+	/* background-color: #578bbb19; */
 }
 .navbar a:hover{
 	color: var(--main-color);
@@ -140,8 +146,8 @@ header.sticky{
 	background: var(--bg-color);
 	padding: 12px 13%;
 	box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+	
 }
-
 .container{
 	padding: 70px 13%;
 	display: grid;
@@ -501,3 +507,320 @@ header.sticky{
 		height: 120vh;
 	}
 }
+
+#button {
+	color: rgb(26, 20, 110);
+	padding: 10px 20px;
+	border-radius: 5px; 
+	border: none; 
+	cursor: pointer; 
+	font-size: 16px; 
+  }
+  
+.cta-img {
+	display: inline-block;
+	width: 200px;
+  }
+  
+.cta-img img {
+	width: 150px;
+	height: auto;
+  }
+
+.home-contact {
+	display: flex;
+	align-items: center; /* pour centrer verticalement les éléments sur la ligne */
+	flex-direction: row; /* pour aligner les éléments côte à côte */
+}
+
+.home-contact h6 {
+	color: var(--main-color);
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-right: 420px; /* pour ajouter de l'espace entre le texte et l'image */
+}
+
+.home-contact h3 {
+	color: var(--second-color);
+	font-size: var(--p-font);
+	font-weight: 500;
+	margin-bottom: 48px;
+	margin-right: 20px; /* pour ajouter de l'espace entre le texte et l'image */
+}
+
+.banner-plateforme {
+	width: 500px;
+	height: auto;
+}
+
+.contact-container {
+	background-color: #f2f2f2;
+	font-family: 'Montserrat', sans-serif;
+	padding: 50px 0;
+  }
+
+  .c-heading h1 {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 10px;
+  }
+  
+  .c-heading p {
+	font-size: 18px;
+	margin-bottom: 30px;
+  }
+  
+  .c-inputs input[type="text"],
+  .c-inputs input[type="email"],
+  .c-inputs textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+  }
+
+  .c-inputs button {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+  }
+  
+  .map {
+	margin-top: 50px;
+  }
+
+  .map iframe {
+	width: 100%;
+  }
+  
+  .map {
+	height: 400px;
+  }
+
+/* AWS RESTART */
+
+.banner {
+	background-image: url(https://laplateforme.io/wp-content/uploads/2021/12/LANDING-AWS-empty-450.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 700px 500px;
+	height: 500px;
+	display: flex;
+	justify-content: flex-start;
+	color: #fff;
+	background-color: #000;
+}
+
+.banner-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 50%;
+	padding: 0 2rem;
+}
+
+.banner h3 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.banner p {
+	color: var(--bg-color);
+	font-size: var(--p-font);
+	font-weight: 500;
+	margin-bottom: 48px;
+}
+
+.banner button {
+	background-color: #fff;
+	color: #000;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.banner button:hover {
+	background-color: #e17b32;
+	color: #fff;
+}
+
+.orange-text {
+	color: #e17b32;
+}
+
+.aws-logo {
+	height: auto;
+	width: 135px;
+	max-width: 100%;
+	margin-left: 26cm;
+  }
+  
+  .aws-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 20px;
+
+	}
+	
+	.two-columns {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+	margin-top: 50px;
+	}
+	
+	.two-columns > div {
+	flex-basis: 45%;
+	text-align: justify;
+	}
+	
+	@media screen and (max-width: 768px) {
+	.two-columns {
+	flex-direction: column;
+	}
+	.two-columns > div {
+	flex-basis: 100%;
+	}
+	
+	}
+	.liste-aws {
+		list-style-type: circle;
+		margin-left: 20px;
+	  }
+	  
+	.button-start {
+		color: rgb(26, 20, 110);
+		padding: 10px 20px;
+		border-radius: 5px; 
+		border: none; 
+		cursor: pointer; 
+		font-size: 16px; 
+
+	}
+
+/* start */
+
+.banner-start {
+	background-image: url('https://laplateforme.io/wp-content/uploads/2022/06/start-devweb-header.webp');
+	background-color: rgba(196, 148, 25, 0.811);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 700px 500px;
+	height: 500px;
+	display: flex;
+	justify-content: flex-start;
+	color: #fff;
+  }
+  
+  .banner-text {
+	text-align: center;
+	color: #fff;
+  }
+  
+  .banner-subtitle {
+	background-color: #000;
+	display: inline;
+	padding: 5px 10px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+  .banner-title {
+	font-size: 3rem;
+	margin-bottom: 20px;
+  }
+  
+  .banner-description {
+	background-color: #000;
+	display: inline;
+	padding: 5px 10px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+  .banner-button {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .banner-button:hover {
+	background-color: #fff;
+	color: #000;
+  }
+  
+  
+  .et_pb_row_2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .et_pb_column_2,
+  .et_pb_column_3,
+  .et_pb_column_4,
+  .et_pb_column_5 {
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+  }
+  
+  .career-section {
+	display: flex;
+	align-items: center;
+	background-color: rgba(196, 148, 25, 0.811);
+	padding: 50px;
+  }
+  
+  .image-wrapper {
+	flex: 0 0 50%;
+	padding-right: 20px;
+  }
+  
+  .image-wrapper img {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .text-wrapper {
+	flex: 0 0 50%;
+  }
+  
+  .text-wrapper h2 {
+	text-align: left;
+  }
+  
+  .text-wrapper ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .text-wrapper ul li {
+	margin-bottom: 10px;
+  }
+  
+  .text-wrapper ul li strong {
+	font-weight: bold;
+  }
